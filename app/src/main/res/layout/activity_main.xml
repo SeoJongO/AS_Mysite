@@ -19,9 +19,11 @@
             />
 
         <EditText
+            android:id="@+id/edt_name"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="6"
+            android:hint="이름을 입력해 주세요"
             />
 
     </LinearLayout>
@@ -39,21 +41,27 @@
             />
 
         <EditText
+            android:id="@+id/edt_password"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="6"
+            android:hint="패스워드를 입력해 주세요"
             />
 
     </LinearLayout>
 
     <EditText
+        android:id="@+id/edt_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:lines="4"
+        android:gravity="top"
+        android:hint="내용을 입력해 주세요"
         />
 
     <Button
+        android:id="@+id/btn_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="저장"
